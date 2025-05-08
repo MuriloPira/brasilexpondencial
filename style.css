@@ -1,20 +1,37 @@
 @charset "UTF-8";
 
+:root {
+    --cor0: #008DE5;
+    --cor1: #1F7FBB;
+    --cor2: #306C91;
+    --cor3: #335266;
+    --cor4: #28343C;
+}
+
 body {
- background-color: gray;
+ background-color: var(--cor4);
 }
 
 header {
     text-align: center;
-    background-image: linear-gradient(to bottom,white, gray);
+   /*background-image: linear-gradient(to bottom,white, gray);*/
+   background-color: var(--cor3);
+   color: var(--cor0);
 }
 
 header h1 {
-    background-color: bisque;
+    /*background-color: bisque;*/
+    color: none;
 }
 
 header p {
-    background-color: bisque; 
+    /*background-color: bisque; */
+    color: none;
+}
+
+.menu {
+    background-color: var(--cor3);
+    font-style: none;
 }
 
 main {
@@ -22,12 +39,12 @@ main {
     background-color: white;
     margin: auto;
     padding: 10px;
-    border-radius: 20px;
+    border-radius: 0px 0px 20px 20px;
 }
 
 main h1 {
     text-align: center;
-    background-color: rgb(28, 134, 134);
+    background-color: var(--cor0);
 }
 
 footer {
