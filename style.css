@@ -8,8 +8,14 @@
     --cor4: #28343C;
 }
 
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
 body {
  background-color: var(--cor4);
+ margin: 0px;
 }
 
 header {
@@ -32,6 +38,17 @@ header p {
 .menu {
     background-color: var(--cor3);
     font-style: none;
+}
+
+div.info {
+    background-color: var(--cor0);
+    border-radius: 0px;
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
+}
+
+div.info h1 {
+    background-color: #008DE5;
 }
 
 main {
