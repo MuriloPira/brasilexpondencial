@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body {
+ background-color: gray;
+}
+
+header {
+    text-align: center;
+    background-image: linear-gradient(to bottom,white, gray);
+}
+
+header h1 {
+    background-color: bisque;
+}
+
+header p {
+    background-color: bisque; 
+}
+
+main {
+    width: 1700px;
+    background-color: white;
+    margin: auto;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+main h1 {
+    text-align: center;
+    background-color: rgb(28, 134, 134);
+}
+
+footer {
+ background-color: aliceblue;
+}
+
