@@ -1,5 +1,13 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: logosite;
+    src: url(fontes/Heavitas.ttf) format(truetype);
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 :root {
     --cor0: #008DE5;
     --cor1: #1F7FBB;
@@ -23,21 +31,34 @@ header {
    /*background-image: linear-gradient(to bottom,white, gray);*/
    background-color: var(--cor3);
    color: var(--cor0);
+   background-image: url(imagens/Design\ sem\ nome\ \(1\).png);
+   background-position: center center;
+   background-repeat: repeat;
+   background-size: cover;
+   padding: 50px;
 }
 
 header h1 {
     /*background-color: bisque;*/
-    color: none;
+    color: var(--cor0);
+    font-family: 'logosite';
+
 }
 
 header p {
     /*background-color: bisque; */
-    color: none;
+    font-family: 'logosite';
+    color: white;
+    font-size: 25px;
 }
 
 .menu {
     background-color: var(--cor3);
     font-style: none;
+}
+
+nav:hover {
+    color: azure;
 }
 
 div.info {
@@ -57,6 +78,7 @@ main {
     margin: auto;
     padding: 10px;
     border-radius: 0px 0px 20px 20px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.384);
 }
 
 main h1 {
